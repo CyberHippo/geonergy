@@ -1,0 +1,111 @@
+baseURL = "https://geonergy.vergnol.eu/"
+languageCode = "en-us"
+title = "Geonergy"
+theme = "timer-hugo"
+
+# We Used Ionicons Icon font for Icon, for more details check this link - https://ionicons.com/
+
+# Navbar Menus
+[[menu.main]]
+name    = "Accueil"
+url     = "/"
+weight  = 1
+[[menu.main]]
+name    = "Qui sommes-nous ?"
+url     = "qui-sommes-nous"
+weight  = 2
+[[menu.main]]
+name    = "Nos service"
+url     = "nos-services"
+weight  = 3
+[[menu.main]]
+name    = "Projets"
+url     = "projets"
+weight  = 4
+[[menu.main]]
+name    = "Actualités"
+url     = "actualites"
+weight  = 5
+[[menu.main]]
+name    = "Ils nous font confiance"
+url     = "partenaires"
+weight  = 6
+[[menu.main]]
+name    = "Blog"
+url     = "blog"
+weight  = 7
+[[menu.main]]
+name    = "Recrutement"
+url     = "recrutement"
+weight  = 8
+[[menu.main]]
+name    = "Contact"
+url     = "contact"
+weight  = 9
+
+
+# Site Params
+[params]
+home = "Home"
+logo = "images/logo.png"
+dateFormat = "6 January 2006"
+# Meta data
+description = "Rendre la géothermie accessible à tous"
+author = "Geonergy"
+# Google Analitycs
+googleAnalitycsID = "Your ID"
+# contact form action
+contactFormAction = "#" # contact form works with https://formspree.io
+
+# Banner Section
+[params.banner]
+enable  = true
+bgImage = "images/slider.gif"
+heading = "Geonergy | Rendre la géothermie accessible à tous"
+description = "Notre site est en cours de construction..."
+# button
+btn     = true
+btnText = "Nos services"
+btnURL  = "https://geonergy.vergnol.eu/nos-services/"
+
+# flip text
+[[params.banner.flipText]]
+title   = "GÉOTHERMIE"
+[[params.banner.flipText]]
+title   = "BROCCOLI"
+[[params.banner.flipText]]
+title   = "ÉNERGIE"
+
+# Homepage About Section
+[params.about]
+enable  = true
+title   = "Qui sommes-nous ?"
+content = "Ingénieurs fraîchement diplômés en énergies durables, nous sommes deux amis et associés, motivés par la lutte pour la protection de l'environnement et du climat.<br>Nous avons fondé Geonergy dans le but d'approfondir les recherches sur les technologies de la géothermie débutées durant nos études.<br>D'égale à égal dans ce projet, nous mettons nos compétences au service de l'optimisation de ces technologies afin de réussir à en diminuer le coût."
+image   = "images/about/about.PNG"
+
+# Call to Action
+[params.cta]
+enable  = true
+title   = "Intéressé.e.s par nos services ?"
+content = "On est vraiment cool et surtout trop balèzes."
+btnText = "Prendre contact"
+btnURL  = "/contact"
+
+# Portfolio Section On Homepage
+[params.portfolio]
+enable  = true
+title   = "Derniers projets"
+subtitle= "Aliquam lobortis. Maecenas vestibulum mollis diam. Pellentesque auctor neque nec urna. Nulla sit amet est. Aenean posuere tortor sed cursus feugiat, nunc augue blandit nunc, eu sollicitudin urna dolor sagittis lacus."
+
+# social icon
+[[params.socialIcon]]
+icon = "ion-social-facebook"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-instagram"
+url = "#"
+
+[[params.socialIcon]]
+icon = "ion-social-linkedin"
+url = "#"

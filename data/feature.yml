@@ -1,0 +1,34 @@
+enable  : true
+title   : Nos offres
+subtitle: >
+  On est balèze.
+item    :
+  - icon  : ion-ios-flask-outline
+    title : On fait de la chimie comme dans breaking bad
+    description : >
+      On mélange des trucs et ça explose, la base.
+
+  - icon  : ion-ios-lightbulb-outline
+    title : Innovation
+    description : >
+      C'est à la mode.
+
+  - icon  : ion-ios-americanfootball-outline
+    title : Qu'est-ce que ça fout là ça ?
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+
+  - icon  : ion-ios-keypad-outline
+    title : 9 petits points, pourquoi pas?
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+
+  - icon  : ion-ios-barcode-outline
+    title : La flemme de faire la suite.
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
+
+  - icon  : ion-ios-lightbulb-outline
+    title : Well documented.
+    description : >
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, sint.
