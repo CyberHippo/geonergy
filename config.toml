@@ -75,6 +75,8 @@ title   = "GÉOTHERMIE"
 title   = "BROCCOLI"
 [[params.banner.flipText]]
 title   = "ÉNERGIE"
+[[params.banner.flipText]]
+title   = "coucou"
 
 # Homepage About Section
 [params.about]
